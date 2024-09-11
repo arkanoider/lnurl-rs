@@ -33,7 +33,7 @@ aes = { version = "0.8" }
 
 [dev-dependencies]
 tokio = { version = "1.20.1", features = ["full"] }
-bitcoin = { version = "0.30.2", features = ["serde", "std"] }
+bitcoin = { version = "0.32.2", features = ["serde", "std"] }
 lightning-invoice = { version = "0.27.0", features = ["std", "serde"] }
 nostr = { version = "0.25.0", default-features = false, features = ["std"] }
 
